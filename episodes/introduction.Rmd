@@ -1,39 +1,36 @@
 ---
-title: "Using RMarkdown"
-teaching: 10
-exercises: 2
+title: "Introduction to Bulk RNASequencing"
+teaching: 60
+exercises: 10
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do you write a lesson using R Markdown and `{sandpaper}`?
+- What does bulk RNA-sequencing measure?
+- How does bulk RNA-sequencing technology work?
+- What are some applications of bulk RNA-sequencing?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain how to use markdown with the new lesson template
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+- Explain what biological molecules RNA-sequencing measures. 
+- Explain the process of RNA-sequencing, including RNA isolation, library preparation, and sequencing.
+- Give examples of applications of RNA-sequencing.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Introduction
 
-This is a lesson created via The Carpentries Workbench. It is written in
-[Pandoc-flavored Markdown](https://pandoc.org/MANUAL.txt) for static files and
-[R Markdown][r-markdown] for dynamic files that can render code into output. 
-Please refer to the [Introduction to The Carpentries 
-Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation.
+Outline:
 
-What you need to know is that there are three sections required for a valid
-Carpentries lesson template:
+- Measuring RNA via microarray.Show brief overview, idea of compelmentary sequences &
+fluorescent tags, taking pictures to measure light intensity and quantification.
+- Early Solexa seq-by-synth. Library prep. Taking pictures of fluorescent dyes for each base.
+High level only.
+- Costs of sequencing over time. High throughput.
 
- 1. `questions` are displayed at the beginning of the episode to prime the
-    learner for the content.
- 2. `objectives` are the learning objectives for an episode displayed with
-    the questions.
- 3. `keypoints` are displayed at the end of the episode to reinforce the
-    objectives.
+
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
